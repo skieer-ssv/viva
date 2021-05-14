@@ -9,19 +9,19 @@ if(!mysqli_stmt_prepare($stmt, $query))
 print "Failed to prepare statement\n";
 }
 mysqli_stmt_bind_param($stmt, "ss", $ques,$sub);
-$ques=$_POST["ques"];
-$sub=$_POST["sub"];
+$ques=strip_tags($_POST["ques"]);
+$sub=strip_tags($_POST["sub"]);
 mysqli_stmt_execute($stmt);
 
 $sql = mysqli_stmt_get_result($stmt);
 if ($sql)
   {
-    echo '<script>alert("added");</script>'; 
+    echo '<script>alert("added");document.location="index.php"</script>'; 
   }
   else{
-      echo "failed";
+      echo '<script>alert("failed");document.location="index.php"</script>';
   }
-  header("Location:index.php");
+
 
 
 ?>

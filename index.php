@@ -10,7 +10,6 @@ Viva Ques
     </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <style>
-    
     a{
         display: block;
         margin:20px 20px;
@@ -26,7 +25,6 @@ Viva Ques
 <a href="ques.php?sub=css">CSS</a>
 <a href="ques.php?sub=dwm">DWM</a>
 <a href="ques.php?sub=se">SE</a>
-<a href="ques.php?sub=ml">ML</a>
 <a href="ques.php?sub=spcc">SPCC</a>
 
 </div>

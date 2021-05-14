@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <?php require_once("config.php");
 require_once('dbquery.php');
-$subject=$_GET['sub'];
+$sub=$_GET['sub'];
+$subject=strip_tags($sub);
  ?>
 <html>
 
@@ -20,7 +21,23 @@ $subject=$_GET['sub'];
 
 <body>
     <?php
-    echo '<h1>'.$subject.'</h1><br>'; 
+    if($sub!='dwm' and $sub!='css' and $sub!='spcc' and $sub!='se'){
+
+    
+    if ($sub==$subject){
+        echo '<script>alert("kindly dont mess with the urls");document.location="index.php"</script>';
+    }
+    else{
+        $ip=$_SERVER['REMOTE_ADDR'];
+        if(Validate_Ip($ip)){
+        add_ip($ip,$con);
+        }
+        if (checkVpn($ip)){
+            echo '<script>alert("Hey Kiddo dont bite the hand that feeds you\nI am noting ur ip- '.$ip.'just in case");document.location="index.php";</script>';
+        }
+    }}
+    else{
+    echo '<h1>'.strip_tags($subject).'</h1><br>'; 
     error_reporting(E_ALL ^ E_WARNING);
     // FETCH BIO
     $q='SELECT * from ques where subject = ? ORDER BY time';
@@ -40,7 +57,7 @@ $subject=$_GET['sub'];
 }
     else {
         echo "No ques yet";
-    }
+    }}
     ?>
 
 
