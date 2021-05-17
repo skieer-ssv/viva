@@ -43,6 +43,7 @@ $subject=strip_tags($sub);
     $q='SELECT * from ques where subject = ? ORDER BY time';
     $p="s";
     $result=get_data_from_db($con,$subject,$q,$p);
+    mysqli_close($con);
     if (mysqli_num_rows($result) > 0) {
 
     echo '<div class="container">';

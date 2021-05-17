@@ -11,9 +11,9 @@ print "Failed to prepare statement\n";
 mysqli_stmt_bind_param($stmt, "ss", $ques,$sub);
 $ques=strip_tags($_POST["ques"]);
 $sub=strip_tags($_POST["sub"]);
-mysqli_stmt_execute($stmt);
+$sql = mysqli_stmt_execute($stmt);
+mysqli_close($con);
 
-$sql = mysqli_stmt_get_result($stmt);
 if ($sql)
   {
     echo '<script>alert("added");document.location="index.php"</script>'; 

@@ -18,7 +18,7 @@ Viva Ques
 </style>
     </head>
  
-    <body>
+<body>
     <div style="width:80%; margin:auto; margin-top:7em">
 
         <div class="row" style="justify-content:space-around;">
@@ -26,11 +26,11 @@ Viva Ques
 <a href="ques.php?sub=dwm">DWM</a>
 <a href="ques.php?sub=se">SE</a>
 <a href="ques.php?sub=spcc">SPCC</a>
-
 </div>
 <div class="row" style="justify-content:space-around;">
 <a href="add.html">Add Ques</a>
+</div></div>
+<div class="row" style="background-color: black;"><marquee style="color:white; font-size:20px">ASSDF ROCKS!</div>
 </div>
-</div>
-    </body>
+</body>
 </html>

@@ -52,4 +52,5 @@ print "Failed to prepare statement\n";
 }
 mysqli_stmt_bind_param($stmt, "s", $ip);
 mysqli_stmt_execute($stmt);
+
 }
