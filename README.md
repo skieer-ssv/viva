@@ -9,7 +9,7 @@ U know what this iste is for: vivq.rf.gd
  ##TODOS:
   1. Update the UI
   2. Add a dark theme option
-  3. Subject ques will be reatined even after the viv in the website so the UI should be designed with that in mind.
+  3. Subject ques will be retained even after the viv in the website so the UI should be designed with that in mind.
   4. A page for subjectwise resources.
   5. Section to advertise upcoming events in college.
   
