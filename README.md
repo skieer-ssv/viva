@@ -2,7 +2,7 @@
 
 The site is currently hosted at: https://vivq.rf.gd/
 
-Kindly go through [Contribution rules]{/CONTRIBUTING.md} before starting to work on an issue.
+Kindly go through [Contribution rules](/CONTRIBUTING.md) before starting to work on an issue.
 
 To run the site locally
 1. Install XAMPP and SQL
