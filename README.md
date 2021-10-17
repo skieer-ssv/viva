@@ -1,6 +1,6 @@
 #### This website is for sharing VIVA questions between students so they can prepare better.
 
-The site is currently hosted at: https://vivq.rf.gd/
+
 
 Kindly go through [Contribution rules](/CONTRIBUTING.md) before starting to work on an issue.
 
