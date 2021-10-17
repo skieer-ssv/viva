@@ -1,4 +1,4 @@
-## Basic Goals for the website:
+## Basic Goals for the website
 
 1. Site should be responsive
 2. UI should never slow down the website
