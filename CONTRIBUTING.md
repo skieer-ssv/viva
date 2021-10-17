@@ -1,3 +1,5 @@
+# Contributing doc
+
 ## Basic Goals for the website
 
 1. Site should be responsive
