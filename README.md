@@ -1,4 +1,4 @@
-#### This website is for sharing VIVA questions between students so they can prepare better.
+#### This website is for sharing VIVA questions between students so they can prepare better
 
 
 
