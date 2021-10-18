@@ -28,7 +28,7 @@ Viva Ques
 <a href="ques.php?sub=spcc">SPCC</a>
 </div>
 <div class="row" style="justify-content:space-around;">
-<a href="add.html">Add Ques</a>
+<a href="add.php">Add Ques</a>
 </div></div>
 <div class="row" style="background-color: black;"><marquee style="color:white; font-size:20px">ASSDF ROCKS!</div>
 </div>
