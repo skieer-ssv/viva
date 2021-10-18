@@ -38,6 +38,7 @@ $subject=strip_tags($sub);
     }}
     else{
     echo '<h1>'.strip_tags($subject).'</h1><br>'; 
+    echo "<a href='add.php?sub=".strip_tags($subject)."'><button>New question</button></a><br />";
     error_reporting(E_ALL ^ E_WARNING);
     // FETCH BIO
     $q='SELECT * from ques where subject = ? ORDER BY time';
