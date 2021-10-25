@@ -42,6 +42,14 @@
             <div class="jumbotron">
                 <h1><?=strtoupper($subject)?></h1>
             </div>
+            <div class="row mt-2">
+                <a type="button" class="btn btn-primary ml-1" href="add.php?sub=<?=$subject?>">
+                    New question
+                </a>
+                <a type="button" class="btn btn-primary ml-1" href="index.php">
+                    Go back
+                </a>
+            </div>
             <h2>Questions</h2>
             <?php if (empty($questions)): ?>
                 <p>No questions yet.</p>
@@ -52,14 +60,6 @@
                     <?php endforeach; ?>
                 </ol>
             <?php endif; ?>
-            <div class="row mt-2">
-                <a type="button" class="btn btn-primary ml-1" href="add.php?sub=<?=$subject?>">
-                    New question
-                </a>
-                <a type="button" class="btn btn-primary ml-1" href="index.php">
-                    Go back
-                </a>
-            </div>
         </div>
     </body>
 </html>
