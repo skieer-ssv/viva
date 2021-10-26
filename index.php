@@ -16,53 +16,95 @@
             <div class="jumbotron">
                 <h1>ASSDF ROCKS!</h1>
             </div>
-            <div class="row justify-content-between">
-                <div class="card">
+            <div class="flex-column">
+                <div class="card mb-1">
                     <div class="card-body">
-                        <h5 class="card-title">CSS</h5>
-                        <?php for ($i=2; $i<=8; $i++): ?>
-                            <p class="card-text">
-                                <a href="ques.php?sub=css&sem=<?=$i?>">
-                                    Semester <?=$i?>
-                                </a>
-                            </p>
-                        <?php endfor; ?>
+                        <h5 class="card-title">Year 1</h5>
+                        <p class="card-text">
+                            <a href="ques.php?sub=sub_1">
+                                Subject 1
+                            </a>
+                        </p>
+                        <p class="card-text">
+                            <a href="ques.php?sub=sub_2">
+                                Subject 2
+                            </a>
+                        </p>
+                        <p class="card-text">
+                            <a href="ques.php?sub=sub_3">
+                                Subject 3
+                            </a>
+                        </p>
+                        <p class="card-text">
+                            <a href="ques.php?sub=sub_4">
+                                Subject 4
+                            </a>
+                        </p>
+                        <p class="card-text">
+                            <a href="ques.php?sub=sub_5">
+                                Subject 5
+                            </a>
+                        </p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card mb-1">
                     <div class="card-body">
-                        <h5 class="card-title">DWM</h5>
-                        <?php for ($i=2; $i<=8; $i++): ?>
-                            <p class="card-text">
-                                <a href="ques.php?sub=dwm&sem=<?=$i?>">
-                                    Semester <?=$i?>
-                                </a>
-                            </p>
-                        <?php endfor; ?>
+                        <h5 class="card-title">Year 2</h5>
+                        <p class="card-text">
+                            <a href="ques.php?sub=sub_6">
+                                Subject 6
+                            </a>
+                        </p>
+                        <p class="card-text">
+                            <a href="ques.php?sub=sub_7">
+                                Subject 7
+                            </a>
+                        </p>
+                        <p class="card-text">
+                            <a href="ques.php?sub=sub_8">
+                                Subject 8
+                            </a>
+                        </p>
+                        <p class="card-text">
+                            <a href="ques.php?sub=sub_9">
+                                Subject 9
+                            </a>
+                        </p>
+                        <p class="card-text">
+                            <a href="ques.php?sub=sub_10">
+                                Subject 10
+                            </a>
+                        </p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card mb-1">
                     <div class="card-body">
-                        <h5 class="card-title">SE</h5>
-                        <?php for ($i=2; $i<=8; $i++): ?>
-                            <p class="card-text">
-                                <a href="ques.php?sub=se&sem=<?=$i?>">
-                                    Semester <?=$i?>
-                                </a>
-                            </p>
-                        <?php endfor; ?>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">SPCC</h5>
-                        <?php for ($i=2; $i<=8; $i++): ?>
-                            <p class="card-text">
-                                <a href="ques.php?sub=spcc&sem=<?=$i?>">
-                                    Semester <?=$i?>
-                                </a>
-                            </p>
-                        <?php endfor; ?>
+                        <h5 class="card-title">Year 3</h5>
+                        <p class="card-text">
+                            <a href="ques.php?sub=sub_11">
+                                Subject 11
+                            </a>
+                        </p>
+                        <p class="card-text">
+                            <a href="ques.php?sub=sub_12">
+                                Subject 12
+                            </a>
+                        </p>
+                        <p class="card-text">
+                            <a href="ques.php?sub=sub_13">
+                                Subject 13
+                            </a>
+                        </p>
+                        <p class="card-text">
+                            <a href="ques.php?sub=sub_14">
+                                Subject 14
+                            </a>
+                        </p>
+                        <p class="card-text">
+                            <a href="ques.php?sub=sub_15">
+                                Subject 15
+                            </a>
+                        </p>
                     </div>
                 </div>
             </div>
